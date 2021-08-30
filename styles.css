@@ -20,7 +20,7 @@
   border: 1px solid black;
 }
 
-.main-color {
+#main-color {
   background-color: green;
   border-radius: 20px;
   width: 270px;

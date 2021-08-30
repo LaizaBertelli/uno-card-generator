@@ -26,8 +26,8 @@ function generateCard(){
     key.innerText = number;
   }
   console.log(color, number);
-  let cardColor = document.querySelector('.main-color');
-  cardColor.style.backgroundColor = color.toString;
+  let mainColor = document.getElementById('main-color');
+  mainColor.style.backgroundColor = `${color}`;
 }
 
 const button = document.querySelector('.generate');
