@@ -1,4 +1,3 @@
-
 function generateColor(){
   let colors = ['red', 'yellow', 'green', 'blue'];
   const max = 3;
@@ -7,14 +6,12 @@ function generateColor(){
   const intRandom = Math.round(random);
   return colors[intRandom];
 }
-// generateColor();
 
 function generateNumber(){
   const max = 9;
   const min = 0;
   const random = Math.random() * (max-min) + min;
   const number = Math.round(random);
-
   return number;
 }
 
@@ -25,7 +22,6 @@ function generateCard(){
   for (let key of p) {
     key.innerText = number;
   }
-  console.log(color, number);
   let mainColor = document.getElementById('main-color');
   mainColor.style.backgroundColor = `${color}`;
 }
