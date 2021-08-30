@@ -10,7 +10,7 @@ function generateColor(){
 // generateColor();
 
 function generateNumber(){
-  const max = 10;
+  const max = 9;
   const min = 0;
   const random = Math.random() * (max-min) + min;
   const number = Math.round(random);
